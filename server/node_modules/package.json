@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main",
+    "dev": "nodemon main"
+  },
+  "author": "Marwan Bouhenni",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
