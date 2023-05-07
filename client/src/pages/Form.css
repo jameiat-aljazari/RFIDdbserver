@@ -1,0 +1,46 @@
+.container {
+	display: inline-flex;
+	width: 100%;
+	height: 100%;
+	background-color: lightblue;
+	justify-content: center;
+
+}
+.formBox{
+	position: absolute;
+	display: inline-flex;
+	justify-content: center;
+	top: 12.5%;
+	width: 100%;
+	height: 75%;
+	background-color: lightblue;
+}
+.grid{
+	top: 15%;
+	position: relative;
+	display: inline-grid;
+	height: 50%;
+	width: 80%;
+	grid-template-columns: 0.9fr 1fr 0.9fr;
+	grid-template-rows: repeat(4, 1fr);
+
+
+}
+.grid > .pad{
+	position: relative;
+	margin-top: 5%;
+}
+
+.pad{
+	width: 90%;
+	left: 5%;
+	border-radius: 5px;
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgray;
+	height: 60px;
+	box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+}
